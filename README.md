@@ -4,9 +4,9 @@
 The cop doc holds info on who has helped cop a pair of trainers for another in the discord server.
 
 ### Prereqs:
-Python 3.7.2
-see `requirements.txt` for required packages.
-discord-copbot assumes PostgreSQL usage.
+* Python 3.7.2
+* see `requirements.txt` for required packages.
+* discord-copbot assumes PostgreSQL usage.
 
 #### Usage:
 
