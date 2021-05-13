@@ -19,7 +19,7 @@ discord-copbot assumes PostgreSQL usage.
     - Returns a message showing the entry has been deleted then clears the message after 3 seconds.
     
 - **`>copstats @user`**
-    - Returns cop doc statistics for given discord userId including amount of cops sent, amount of cops receives and a ratio of both.
+    - Returns cop doc statistics for given discord userId including amount of cops sent, amount of cops received and a ratio of both.
     
 - **`>copboard`**
     - Returns a message showing the cop doc leaderboard (per user per sent cops).
