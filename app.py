@@ -56,7 +56,7 @@ def get_formatted_cop_board(guild, cop_board):
     for entry in cop_board:
         user_mention = guild.get_member(int(entry[0]))
         if user_mention is not None:
-            cop_board_string += user_mention.mention + ' - ' + str(entry[1]) + " cop(s)\n"
+            cop_board_string += "{} - {} cop(s)\n".format(user_mention.mention, str(entry[1]))
     return cop_board_string
 
 
